@@ -32,17 +32,16 @@
       margin-bottom: 20px;
     }
 
-
-    /* Style the image link */
-    a img {
+    /* Style the image */
+    .shrek-image {
       width: 100%; /* Make sure the image fills its container */
       border-radius: 8px; /* Optional: add a border-radius for a rounded look */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       transition: transform 0.3s ease-in-out;
     }
 
-    /* Add hover effect for the image link */
-    a img:hover {
+    /* Add hover effect for the image */
+    .shrek-image:hover {
       transform: scale(1.05);
     }
 
@@ -77,10 +76,8 @@
     <section>
       <h2>Welcome to the Swamp!</h2>
       <p>Discover the magic and humor of Shrek's world.</p>
-      <!-- Use an anchor tag for the image link -->
-      <a href="Shrek.png" target="_blank">
-        <img src="shrek.jpg" alt="Shrek">
-      </a>
+      <!-- Display the image directly -->
+      <img class="shrek-image" src="shrek.jpg" alt="Shrek">
     </section>
 
     <section>
